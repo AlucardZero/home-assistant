@@ -18,7 +18,7 @@ from homeassistant.const import (
     CONF_MONITORED_CONDITIONS, CONF_API_KEY, TEMP_FAHRENHEIT, TEMP_CELSIUS,
     STATE_UNKNOWN)
 
-_RESOURCE = 'http://api.wunderground.com/api/{}/conditions/q/'
+_RESOURCE = 'https://api.wunderground.com/api/{}/conditions/q/'
 _LOGGER = logging.getLogger(__name__)
 
 CONF_PWS_ID = 'pws_id'
